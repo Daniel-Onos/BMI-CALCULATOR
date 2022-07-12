@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: calibri;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card{
+    background-color: rgb(24, 24, 24);
+    padding: 10px 20px;
+}
+
+.card__header{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.card__content > *{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+.card__content label{
+    color: white;
+    text-align: center;
+}
